@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Practice JavaScript change attribute src of image</title>
+  </head>
+  <body>
+    <h2>JavaScript can change HTML attribute values.</h2>
+    <p>
+      In this case JavaScript changes the value of the src (source) attribute of
+      an image.
+    </p>
+
+    <input
+      onclick="document.getElementById('light_image').src='img/pic_bulbon.gif'"
+      type="button"
+      value="Turn on the light"
+    />
+    <img id="light_image" src="img/pic_bulboff.gif" alt="bulboff image" />
+    <input
+      onclick="document.getElementById('light_image').src='img/pic_bulboff.gif'"
+      type="button"
+      value="Turn off the light"
+    />
+    <script src="index.js" />
+  </body>
+</html>

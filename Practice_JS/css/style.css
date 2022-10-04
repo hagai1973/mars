@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+div {
+  margin: 20px;
+}
+
+div.input {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div span {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  border: solid 2px black;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.validator {
+  text-align: center;
+}
